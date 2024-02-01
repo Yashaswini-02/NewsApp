@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
                         Uri.parse(result.articles[it].url)
                     )
                     startActivity(webIntent)
+                    Log.d("MainActivity","Browser opening")
                 }
             }
 
